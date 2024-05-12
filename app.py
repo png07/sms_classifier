@@ -9,6 +9,8 @@ import pickle
 ps=PorterStemmer()
 
 def transform_text(text):
+    nltk.download('punkt')
+    nltk.download('stopwords')
     y=[]
     y=re.sub('[^a-zA-Z]',' ',text)
     y=y.lower()
