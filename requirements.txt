@@ -4,6 +4,4 @@ seaborn
 matplotlib
 scikit-learn
 nltk
-re
-string
 streamlit
